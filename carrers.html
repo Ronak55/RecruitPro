@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RecruitPro - Careers</title>
+
+  
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/careerstyling.css">
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="/index.html" class="logo">
+        <h1>RecruitPro</h1>
+      </a>
+
+      <button class="nav-toggle-btn" data-nav-toggle-btn>
+        <ion-icon name="menu-outline" class="open"></ion-icon>
+        <ion-icon name="close-outline" class="close"></ion-icon>
+      </button>
+
+      <nav class="navbar">
+        <div class="container">
+          <ul class="navbar-list">
+
+            <li>
+              <a href="/index.html" class="navbar-link" data-navbar-link>Home</a>
+            </li>
+
+            <li>
+              <a href="#features" class="navbar-link" data-navbar-link>Features</a>
+            </li>
+
+            <li>
+              <a href="#service" class="navbar-link" data-navbar-link>Service</a>
+            </li>
+
+            <li>
+              <a href="#solutions" class="navbar-link" data-navbar-link>Careers</a>
+            </li>
+
+            <li>
+              <a href="#pricing" class="navbar-link" data-navbar-link>Pricing</a>
+            </li>
+
+          </ul>
+        </div>
+      </nav>
+
+      <button class="btn btn-primary">
+        <a href = "/signup.html">
+        <span class = "getstarted">Get Started</span>
+    </a>
+
+
+      <ion-icon name="chevron-forward-outline"></ion-icon>
+    </a>
+
+    </div>
+  </header>
+
+
+ 
+        <!-- code for search functionality and careers in this section -->
+
+        <main>
+            <section class="careers-banner">
+              <div class="container">
+                <h2>Join Our Team</h2>
+                <p>Explore exciting job opportunities at RecruitPro</p>
+              </div>
+            </section>
+            
+            <section class="job-search-section">
+                <div class="container">
+                  <div class="job-search-form">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="job-role">Job Role:</label>
+                          <select id="job-role" name="job-role" class="form-control">
+                            <option value="">Select Job Role</option>
+                            <option value="software-engineer">Software Engineer</option>
+                            <option value="data-scientist">Data Scientist</option>
+                            <option value="product-manager">Product Manager</option>
+                            <!-- Add more job roles as needed -->
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="location">Location:</label>
+                          <select id="location" name="location" class="form-control">
+                            <option value="">Select Location</option>
+                            <option value="new-york">New York</option>
+                            <option value="san-francisco">San Francisco</option>
+                            <option value="london">London</option>
+                            <!-- Add more locations as needed -->
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+              
+                    <button id="search-btn" class="btn btn-primary">Search</button>
+                  </div>
+              
+            
+                <div id="job-listings" class="job-listings">
+                  <!-- Dynamically generated job listings go here -->
+                </div>
+            
+                <nav aria-label="Job Listings Pagination">
+                  <ul class="pagination">
+                    <li class="page-item">
+                      <a class="page-link" href="#">Previous</a>
+                    </li>
+                    <li class="page-item active">
+                      <a class="page-link" href="#">1</a>
+                    </li>
+                    <li class="page-item">
+                      <a class="page-link" href="#">2</a>
+                    </li>
+                    <li class="page-item">
+                      <a class="page-link" href="#">3</a>
+                    </li>
+                    <li class="page-item">
+                      <a class="page-link" href="#">Next</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </section>
+          </main>
+          
+  
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+           <h1>RecruitPro</h1>
+          </a>
+
+          <p class="section-text">
+           <h> Secure IT solutions for a more secure environment</h>
+          </p>
+
+          <div class="location-text">
+            <div class="location-icon">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <address class="address">
+             Gurugram, India
+            </address>
+          </div>
+
+        </div>
+
+        <div class = "space"></div>
+      
+        <div class="contact">
+          <p class="h3 contact-title">Contact with us</p>
+
+          <ul class="contact-list">
+
+            <li class="contact-item">
+              <div class="contact-icon">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <a href="mailto:rj.rjain567@gmail.com" class="contact-link">rj.rjain567@gmail.com</a>
+            </li>
+
+            <li class="contact-item">
+              <div class="contact-icon">
+                <ion-icon name="call-outline"></ion-icon>
+              </div>
+
+              <a class="contact-link">8474081159</a>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2023 <a href="#">Ronak Bothra</a>. All Rights Reserved
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+  <a href="#top" class="go-top active" data-go-top>
+    <ion-icon name="chevron-up-outline"></ion-icon>
+  </a>
+
+
+  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/careers.js"></script>
+    
+</body>
+</html>

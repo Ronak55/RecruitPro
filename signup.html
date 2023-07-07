@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RecruitPro</title>
+
+  
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/signup.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="/index.html" class="logo">
+        <h1>RecruitPro</h1>
+      </a>
+
+      <button class="nav-toggle-btn" data-nav-toggle-btn>
+        <ion-icon name="menu-outline" class="open"></ion-icon>
+        <ion-icon name="close-outline" class="close"></ion-icon>
+      </button>
+
+      <nav class="navbar">
+        <div class="container">
+          <ul class="navbar-list">
+
+            <li>
+              <a href="/index.html" class="navbar-link" data-navbar-link>Home</a>
+            </li>
+
+            <li>
+              <a href="#features" class="navbar-link" data-navbar-link>Features</a>
+            </li>
+
+            <li>
+              <a href="#service" class="navbar-link" data-navbar-link>Service</a>
+            </li>
+
+            <li>
+              <a href="/carrers.html" class="navbar-link" data-navbar-link>Careers</a>
+            </li>
+
+            <li>
+              <a href="#pricing" class="navbar-link" data-navbar-link>Pricing</a>
+            </li>
+
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="card-container slideUp-animation">
+    <div class="image-container">
+        <img src="./assets/images/signUp.svg" class="illustration" alt="">
+        <p class="quote">Connect with us !</p>
+    </div>
+    <form action="" method="">
+        <div class="form-container slideRight-animation">
+
+            <h1 class="form-header">
+                Get started
+            </h1>
+
+            <div class="input-container">
+                <label for="f-name"></label>
+                <input type="text" name="f-name" id="f-name" required>
+                <span>
+                    First name
+                </span>
+                <div class="error"></div>
+            </div>
+
+            <div class="input-container">
+                <label for="l-name"></label>
+                <input type="text" name="l-name" id="l-name" required>
+                <span>
+                    Last name
+                </span>
+                <div class="error"></div>
+            </div>
+
+            <div class="input-container">
+                <label for="mail">
+                </label>
+                <input type="email" name="mail" id="mail" required>
+                <span>
+                    E-mail
+                </span>
+                <div class="error"></div>
+            </div>
+
+            <div class="input-container">
+                <label for="phone">
+                </label>
+                <input type="tel" name="phone" id="phone" required>
+                <span>Phone</span>
+                <div class="error"></div>
+            </div>
+
+            <div class="input-container">
+                <label for="user-password"></label>
+                <input type="password" name="user-password" id="user-password" class="user-password" required>
+                <span>Password</span>
+                <div class="error"></div>
+            </div>
+
+            <div class="input-container">
+                <label for="user-password-confirm"></label>
+                <input type="password" name="user-password-confirm" id="user-password-confirm" class="password-confirmation" required>
+                <span>
+                    Confirm Password
+                </span>
+                <div class="error"></div>
+            </div>
+
+            <div id="btm">
+                <button type="submit" class="submit-btn">Create Account</button>
+                <p class="btm-text">
+                    Already have an account..? <span class="btm-text-highlighted">  Log in</span>
+                </p>
+            </div>
+        </div>
+    </form>
+</main>
+   <section class="outro-overlay disabled slideUp-animation">
+    <div>
+    <h1 class="outro-greeting">Thank's for signing up !</h1>
+    <a href="/" class="home-button">&#8592; Back</a>
+</div>
+    <img src="./assets/images/signedUp.svg" alt="" id="signedUp-illustration" class="slideRight-animation">
+   
+</section>
+
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+           <h1>RecruitPro</h1>
+          </a>
+
+          <p class="section-text">
+           <h> Secure IT solutions for a more secure environment</h>
+          </p>
+
+          <div class="location-text">
+            <div class="location-icon">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <address class="address">
+             Gurugram, India
+            </address>
+          </div>
+
+        </div>
+
+        <div class = "space"></div>
+      
+        <div class="contact">
+          <p class="h3 contact-title">Contact with us</p>
+          <div class="space"></div>
+          <ul class="contact-list">
+
+            <li class="contact-item">
+              <div class="contact-icon">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <a href="mailto:rj.rjain567@gmail.com" class="contact-link">rj.rjain567@gmail.com</a>
+            </li>
+
+            <li class="contact-item">
+              <div class="contact-icon">
+                <ion-icon name="call-outline"></ion-icon>
+              </div>
+
+              <a class="contact-link">8474081159</a>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2023 <a href="#">Ronak Bothra</a>. All Rights Reserved
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.linkedin.com/in/ronak-bothra-9a7281164/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/irohnyyy/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+  <a href="#top" class="go-top active" data-go-top>
+    <ion-icon name="chevron-up-outline"></ion-icon>
+  </a>
+
+
+  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/signup.js"></script>
+
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

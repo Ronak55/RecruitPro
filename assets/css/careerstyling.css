@@ -1,0 +1,136 @@
+/* careerstyling.css */
+
+/* ... Existing CSS rules ... */
+
+main {
+    padding-top: 120px; /* Adjust the value as needed */
+  }
+
+  .careers-banner {
+    background-color: #f5f5f5;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .careers-banner h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .careers-banner p {
+    font-size: 18px;
+    color: #777;
+  }
+
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .job-search-section {
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  .job-search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .job-search-form .form-group {
+    margin: 10px;
+  }
+  
+  .job-search-form label {
+    font-weight: bold;
+  }
+  
+  .job-search-form select {
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .job-search-form button {
+    margin-left: 10px;
+    height: 40px;
+    padding: 0 20px;
+  }
+  
+  .job-listings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+
+  .job-card {
+    flex: 0 0 calc(50% - 20px);
+    margin: 10px;
+    padding: 30px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  
+  
+  .job-card h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-left: 80px;
+  }
+  
+  .job-card p {
+    margin: 20px;
+    flex-grow: 1;
+  }
+  
+  .job-card .job-type {
+    color: #777;
+  }
+  
+  .job-card .location {
+    color: #777;
+  }
+  
+  .job-card button {
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  
+  .pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pagination li {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  .pagination li a {
+    padding: 5px 10px;
+    background-color: #f5f5f5;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .pagination li.active a {
+    background-color: #333;
+    color: #fff;
+  }
+  
